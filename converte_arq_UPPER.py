@@ -1,0 +1,5 @@
+nome = input('Digite o nome do arquivo: ')
+arquivo = open(nome)
+arquivo_lido = arquivo.read()
+arquivo_lido = arquivo_lido.rstrip()
+print(arquivo_lido.upper())
